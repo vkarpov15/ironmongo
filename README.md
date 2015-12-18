@@ -1,2 +1,3 @@
 # ironmongo
-"That's kind of catchy. It's got a nice ring to it. I mean it's not technically accurate. The suit's a gold titanium alloy, but it's kind of provocative, the imagery anyway."
+
+Shell-centric MongoDB GUI inspired by [RoboMongo](https://github.com/paralect/robomongo). Built with [electron](http://electron.atom.io/), [vue.js](http://vuejs.org/), and [nimrod](https://github.com/vkarpov15/nimrod-new).
