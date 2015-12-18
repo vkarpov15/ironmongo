@@ -1,12 +1,11 @@
-var app = require('app');  // Module to control application life.
-var BrowserWindow = require('browser-window');  // Module to create native browser window.
+'use strict';
 
-// Report crashes to our server.
-require('crash-reporter').start();
+const app = require('app');
+const BrowserWindow = require('browser-window');
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-var mainWindow = null;
+let mainWindow = null;
+
+//const configPath = path.join(app.getPath('userData'), 'ironmongo.json');
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function() {

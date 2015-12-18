@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "asyncblock": "2.2.5",
+    "configstore": "1.4.0",
     "nimrod": "https://github.com/vkarpov15/nimrod-new/archive/master.tar.gz",
     "vue": "1.0.11"
   },
